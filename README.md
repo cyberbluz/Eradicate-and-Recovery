@@ -1,4 +1,4 @@
-# Now it time to Clean up the Mess!!!
+# Now it's time to Clean up the Mess!!!
 ![image](https://github.com/user-attachments/assets/3be54560-4314-45df-bfa7-d3cd0dc72e55)
 ## Referring back to my Playbook and knowing from my investigation that the NSG may be misconfigured, I accessed the NSG and found a Rule allowing any and all inbound internet traffic. 
 > [!WARNING]  
