@@ -1,6 +1,10 @@
 # Now it time to Clean up the Mess!!!
 ![image](https://github.com/user-attachments/assets/3be54560-4314-45df-bfa7-d3cd0dc72e55)
-## Referring back to my Playbook and knowing from my investigation that the NSG may be misconfigured, I was able to access the Linux and Windows NSGs and found the 
+## Referring back to my Playbook and knowing from my investigation that the NSG may be misconfigured, I accessed the NSG and found a Rule allowing any and all inbound internet traffic. 
+> [!WARNING]  
+> # (⚠️Danger_AllowAnyCustomInboundTraffic) 
+
+
 ![image](https://github.com/user-attachments/assets/4d031cdc-024e-47c0-8a1c-8b457e96ea9e)
 
 
