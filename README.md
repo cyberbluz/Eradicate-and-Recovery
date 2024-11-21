@@ -1,13 +1,14 @@
 # Now it's time to Clean up the Mess!!!
 ![image](https://github.com/user-attachments/assets/3be54560-4314-45df-bfa7-d3cd0dc72e55)
-## Referring back to my Playbook and knowing from my investigation that the NSG may be misconfigured, I accessed the NSG and found a Rule allowing any and all inbound internet traffic. 
+## Referring back to my Playbook and knowing from my investigation that the NSG may be misconfigured, I accessed the NSG and found the Inbound Security Rule allowing any and all inbound internet traffic. 
+![image](https://github.com/user-attachments/assets/4d031cdc-024e-47c0-8a1c-8b457e96ea9e)
+****
 > [!WARNING]  
 > # (⚠️Danger_AllowAnyCustomInboundTraffic) 
-![image](https://github.com/user-attachments/assets/4d031cdc-024e-47c0-8a1c-8b457e96ea9e)
+****
 ![image](https://github.com/user-attachments/assets/6f01a5f8-2f33-4b45-a166-f5ff9cada94e)
-
-
-
+## I...
+![image](https://github.com/user-attachments/assets/be3d8c20-7e3b-4ba8-ad8e-d443a6b15e69)
 
 ## Metrics After Hardening / Security Controls
 ## For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
