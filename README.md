@@ -7,7 +7,7 @@
 > # (⚠️Danger_AllowAnyCustomInboundTraffic) 
 ****
 ![image](https://github.com/user-attachments/assets/6f01a5f8-2f33-4b45-a166-f5ff9cada94e)
-## I...
+## I removed the ill-advised security rule, and replaced it with a Hardened rule limiting inbound access to a trusted ip address. I also reviewed the other security rules to ensure  
 ![image](https://github.com/user-attachments/assets/be3d8c20-7e3b-4ba8-ad8e-d443a6b15e69)
 
 ![image](https://github.com/user-attachments/assets/276f66e9-b122-4cb0-9620-cddfd81cad1b)
