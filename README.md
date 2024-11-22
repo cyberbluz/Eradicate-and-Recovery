@@ -12,6 +12,8 @@
 ## After ensuring the Alert was indeed a False Positive and no Breach had occurred, I Hardened the NSG and closed out the incident referring several other incidents back to this incident due to their involvement with the same service account ip.
 ![image](https://github.com/user-attachments/assets/276f66e9-b122-4cb0-9620-cddfd81cad1b)
 
+## I also worked through several Brute Force Attempts and found may were duplicates involving the same ip, but none successfully breached the network.  I carefully mapped several ip addresses to ensure a botnet DDos attack was not employed.
+![image](https://github.com/user-attachments/assets/e4b94837-f06f-46fa-bdc2-5442f9e85c15)
 
 
 ## Metrics After Hardening / Security Controls
