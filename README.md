@@ -13,14 +13,14 @@
 
 ## I also worked through several Brute Force Attempt alerts and found many were duplicates involving the same ip, but none successfully breached the network.  I carefully mapped the ip addresses looking for connections that would indicate a botnet DDos attack was employed.  Finding no evidence, I closed out the remaining alerts and continued to harden the NSG. 
 ![image](https://github.com/user-attachments/assets/e4b94837-f06f-46fa-bdc2-5442f9e85c15)
-
-
-## Metrics After Hardening the Security Controls
-## The Network Security Groups were hardened by blocking ALL inbound traffic except for my admin workstation (52.252.187.196), and all other resources were protected by their built-in firewalls as well as Private Endpoint
+****
+****
+# Metrics After Hardening the Security Controls
+## The Network Security Groups were hardened by blocking ALL inbound traffic except for my Admin Workstation (52.252.187.196), and all other resources were protected by their built-in firewalls as well as Private Endpoint
+## After Securing and Hardening the network, I ran a test environment for 24 hours.  I was pleased to find my investigation was correct and my findings and solutions did indeed secured the network. 
 ![image](https://github.com/user-attachments/assets/e85907eb-3bd5-4f75-8dbf-bc6ad326868e)
-
 ![image](https://github.com/user-attachments/assets/b2aacb16-ffaa-44ee-b371-8903aa8f4b62)
 
-## Conclusion
+# Final Conclusion
 
-In this project, a mini honeynet was constructed in Microsoft Azure and log sources were integrated into a Log Analytics workspace. Microsoft Sentinel was employed to trigger alerts and create incidents based on the ingested logs. Additionally, metrics were measured in the insecure environment before security controls were applied, and then again after implementing security measures. It is noteworthy that the number of security events and incidents were drastically reduced after the security controls were applied, demonstrating their effectiveness.
+## In this project, a mini honeynet was constructed in Microsoft Azure and log sources were integrated into a Log Analytics workspace. Microsoft Sentinel was employed to trigger alerts and create incidents based on the ingested logs. Additionally, metrics were measured in the insecure environment before security controls were applied, and then again after implementing security measures. It is noteworthy that the number of security events and incidents were drastically reduced after the security controls were applied, demonstrating their effectiveness.
