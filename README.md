@@ -20,7 +20,9 @@
 ## After Securing and Hardening the network, I ran a test environment for 24 hours.  I was pleased to find my investigation was correct and my findings and solutions did indeed secured the network. 
 ![image](https://github.com/user-attachments/assets/e85907eb-3bd5-4f75-8dbf-bc6ad326868e)
 ![image](https://github.com/user-attachments/assets/b2aacb16-ffaa-44ee-b371-8903aa8f4b62)
+## Metrics Before Hardening / Security Controls
 
+![image](https://github.com/user-attachments/assets/9cd4666c-0f88-484c-9167-186613a2a9ae)
 # Final Conclusion
 
 ## In this project, a mini honeynet was constructed in Microsoft Azure and log sources were integrated into a Log Analytics workspace. Microsoft Sentinel was employed to trigger alerts and create incidents based on the ingested logs. Additionally, metrics were measured in the insecure environment before security controls were applied, and then again after implementing security measures. It is noteworthy that the number of security events and incidents were drastically reduced after the security controls were applied, demonstrating their effectiveness.
