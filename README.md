@@ -3,8 +3,7 @@
 ## Referring back to my Playbook and knowing from my investigation that the NSG may be misconfigured, I accessed the NSG and found the Inbound Security Rule that was allowing any and all inbound internet traffic. 
 ![image](https://github.com/user-attachments/assets/4d031cdc-024e-47c0-8a1c-8b457e96ea9e)
 ****
-![image](https://github.com/user-attachments/assets/49934a67-1fd4-42ce-a28c-d36b041b2514)
-
+![image](https://github.com/user-attachments/assets/cfacff51-d9a8-48f5-b003-a16d7268c789)
 
 ## I removed the ill-advised security rule, and replaced it with a Hardened rule limiting inbound access to a trusted ip address. I also reviewed the other security rules to ensure no further issues would arise from the NSG.  
 ![image](https://github.com/user-attachments/assets/4038e946-27e8-4c83-80d8-2df281d0e11e)
