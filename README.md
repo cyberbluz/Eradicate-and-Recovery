@@ -15,7 +15,7 @@
 ****
 ****
 # Metrics After Hardening the Security Controls
-## The Network Security Groups were hardened by blocking ALL inbound traffic except for my Admin Workstation (52.252.187.196), and all other resources were protected by their built-in firewalls as well as Private Endpoint
+## The Network Security Groups were hardened by blocking ALL inbound traffic except for my Admin Workstation (52.252.187.196), and all other resources were protected by their built-in firewalls as well as Private Endpoint.
 ## After Securing and Hardening the network, I ran a test environment for 24 hours.  I was pleased to find my investigation was correct and my findings and solutions did indeed secure the network. 
 ![image](https://github.com/user-attachments/assets/e85907eb-3bd5-4f75-8dbf-bc6ad326868e)
 ![image](https://github.com/user-attachments/assets/b2aacb16-ffaa-44ee-b371-8903aa8f4b62)
