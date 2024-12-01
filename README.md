@@ -7,7 +7,7 @@
 
 ## I removed the ill-advised security rule, and replaced it with a Hardened rule limiting inbound access to a trusted ip address. I also reviewed the other security rules to ensure no further issues would arise from the NSG.  
 ![image](https://github.com/user-attachments/assets/4038e946-27e8-4c83-80d8-2df281d0e11e)
-## After ensuring the "Success" Alert was indeed a False Positive and no Breach had occurred, I Hardened the NSG and closed out the incident referring several other incidents back to this incident due to their involvement with the same service account ip.
+## After ensuring the "Success" Alert was indeed a False Positive and no Breach had occurred, I hardened the NSG and closed out the incident referring several other incidents back to this incident due to their involvement with the same service account ip.
 ![image](https://github.com/user-attachments/assets/276f66e9-b122-4cb0-9620-cddfd81cad1b)
 
 ## I also worked through several Brute Force Attempt alerts and found many were duplicates involving the same ip, but none successfully breached the network.  I carefully mapped the ip addresses looking for connections that would indicate a botnet DDos attack was employed.  Finding no evidence of a DDos attack, I closed out the remaining incidents and continued to harden the NSG. 
